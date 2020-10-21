@@ -14,8 +14,10 @@ dist/
 downloads/
 eggs/
 .eggs/
-lib/
-lib64/
+log/
+cert/
+dataset_nlp/
+tmp/
 parts/
 sdist/
 var/
@@ -80,7 +82,8 @@ target/
 # IPython
 profile_default/
 ipython_config.py
-
+bot_config.py
+*_backup.*
 # pyenv
 .python-version
 
