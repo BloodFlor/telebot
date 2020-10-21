@@ -29,7 +29,7 @@ def get_pars(html):
 
 def get_posts_pikabu():
     data = []
-    main_url = 'https://pikabu.ru/tag/%D0%9C%D0%B5%D0%BC%D1%8B?q=%D1%8E%D0%BC%D0%BE%D1%80&page'
+    main_url = 'https://pikabu.ru/tag/%D0%9C%D0%B5%D0%BC%D1%8B?q=%D1%8E%D0%BC%D0%BE%D1%80&r=3&page'
     for page in range(2):
         url = main_url + '=%s' % page
         data += get_pars(get_html(url))

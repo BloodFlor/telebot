@@ -13,6 +13,7 @@ from aiohttp import web
 from lib.nlu import NLU
 from lib.daemon import Daemon
 from lib.get_mem import GetMem
+from lib.bot_config import TOKEN
 from lib.api_bot import Conversation
 
 myNLU = NLU()
